@@ -1,5 +1,5 @@
 public class Aluno {
-    private String nome;
+    private final String nome;
 
     public Aluno(String nome) {
         if (nome.isEmpty()) {
